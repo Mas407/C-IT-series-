@@ -1,0 +1,49 @@
+//Must Read Paragrapg carefully ::>
+///Structure ::
+//Sab sa phala ap ya samja ka structure hota kia ha structure ka use ham is lia karta han ka ham khud sa koi data type banaaa jasa ka int float wagra hota ha asa ha ham 
+bi bana sakta ha name sa kisi bi name ka data type bana sakta han neacha example bi de hoye ha apko or han structure ka use user defined data type ka lia hota ha
+Data type 2 tarha ke hoti han Build in data type or user defined data type ::
+Example::>
+
+#include<iostream>
+using namespace std;
+struct Masroor
+{
+    float number;
+    float total;
+};
+int main(){
+Masroor m;
+cout<<"Enter the total marks ::> ";
+cin>>m.total;
+cout<<"Enter the Obtained number :: >> ";
+cin>>m.number;
+
+cout<<"The percantage of the number is ::> "<<m.number*100/m.total<<endl;
+return 0; 
+}
+
+
+
+// #include<iostream>
+// using namespace std;
+// struct Mas{
+//     int roll;
+// };
+// int main(){
+// Mas m;
+// cout<<"Enter the Roll Number ::> ";
+// cin>>m.roll;
+// if(m.roll=35){
+//     cout<<"Name : Masroor Ali "<<endl<<"Father Name : ------"<<endl<<"Contact Number : +923000000000"<<endl<<"CNIC : --------------- "<<endl<<"Adress : ........................."<<endl<<"Nationality : ---------- "<<endl<<"School Name : ============== "<<endl<<"College :  ''''''''''''''''  "<<endl<<"Unibersity : ----"<<endl<<"Department : Computer Scinence"<<endl;
+// }
+// else if(m.roll=7){
+//     cout<<"Name :  Wasif "<<endl<<"Father Name : Unknown"<<endl<<"Contact Number : +923000000000"<<endl<<"CNIC : 31-------------- "<<endl<<"Adress : ---------------------"<<endl<<"Nationality : -----------"<<endl<<"School Name : ------------------- "<<endl<<"College : -------------------- "<<endl<<"Unibersity : -------------"<<endl<<"Department : Computer Scinence";
+// }
+// else if(m.roll=47){
+//     cout<<"Name : Hussnain  "<<endl<<"Father Name : Unknown"<<endl<<"Contact Number : +923000000000"<<endl<<"CNIC : 31-------------- "<<endl<<"Adress : ---------------------"<<endl<<"Nationality : -----------"<<endl<<"School Name : ------------------- "<<endl<<"College : -------------------- "<<endl<<"Unibersity : -------------"<<endl<<"Department : Computer Scinence";
+// }
+// else
+// cout<<" INVALID ";
+// return 0;
+// }
