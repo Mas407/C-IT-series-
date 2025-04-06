@@ -141,6 +141,7 @@ if(grade<15)
 cout<<"The totsl salary is ::>  "<<salary+salary*0.25;
 }
 
+
 program 11
 
 ::>> agr a ka modulas b == 0 ho ga tab wo dusra number ka multiple ho ga warna nhi  
