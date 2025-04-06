@@ -1,0 +1,21 @@
+
+// Armstrong Number
+
+// int n;
+// int sum=0,digit;
+// cout<<"Enter the number ::> ";
+// cin>>n;
+// int a=n;
+// while(n!=0){
+//     digit=n%10;
+//     sum=sum+pow(digit,3);
+//     n=n/10;
+// }
+// if(sum==a)
+// cout<<"Number is an armstrong   "<<sum;
+// else
+// cout<<"Not ";
+
+
+
+
