@@ -1,0 +1,2214 @@
+#include<iostream>
+#include<algorithm>
+#include<iomanip>
+#include<cmath>
+using namespace std;
+int main(){
+     cout<<"Masroor Ali";
+  float  radius,circumfarance;
+  cout<<"Enter the radius ";
+  cin>>radius;
+  circumfarance=2*3.14*radius;
+  cout<<"Total Radius = "<<circumfarance;
+
+ int a,b;
+ cout<<"Enter the two number ";
+ cin>>a>>b;
+ cout<<"Sum = "<<a+b<<endl; 
+ cout<<"Substract = "<<a-b<<endl; 
+ cout<<"Multiplication = "<<a*b<<endl; 
+ cout<<"Division = "<<a/b<<endl; 
+
+int a,b;
+ cout<<"enter the number ";
+ cin>>a;
+ a=10;
+ a+=5;
+ cout<<a<<endl;
+ a*=2;
+ cout<<a<<endl;
+ a-=10;
+ cout<<a; 
+
+int a,b,c,d;
+ a=b=c=d=0;
+ a++;
+ b=a;
+ ++c;
+ d=c;
+ cout<<a<<endl;
+ cout<<b<<endl;
+ cout<<c<<endl;
+ cout<<d<<endl;
+
+ int a,b,c,d;
+ a=b=c=d=0;
+ a=b++;
+ c=++d;
+  cout<<a<<endl;
+  cout<<b<<endl;
+  cout<<c<<endl;
+  cout<<d<<endl;
+
+ int a,b,c,d;
+ a=b=c=d=0;
+ a++;
+ b=a;
+ ++c;
+ d=c;
+ cout<<a<<endl;
+ cout<<b<<endl;
+ cout<<c<<endl;
+ cout<<d<<endl;
+
+
+A large expression ka hisab sa 
+
+ int a,b,c,d;
+ a=b=c=d=0;
+ b=a++;
+ d=++c;
+ cout<<a<<endl;
+ cout<<b<<endl;
+ cout<<c<<endl;
+ cout<<d<<endl;
+
+
+
+postfix decrement operator prefix decrtement operator 
+
+ int a,b,c,d;
+ a=b=c=d=0;
+ a--;
+ b=a;
+ --c;
+ d=c;
+ cout<<a<<endl;
+ cout<<b<<endl;
+ cout<<c<<endl;
+ cout<<d<<endl;
+
+
+
+postfix decrement operator prefix decrement operator as a large expression 
+
+ int a,b,c,d;
+ a=b=c=d=0;
+ b=a--;
+ d=--c;
+ cout<<a<<endl;
+ cout<<b<<endl;
+ cout<<c<<endl;
+ cout<<d<<endl;
+
+large ma bola to uska samna he change kar dana ha 4ro ka alag alag nhi karna ham na 
+
+
+
+
+ int a,b,c,d;
+ cout<<"Enter the number ";
+ cin>>a>>b>>c>>d;
+ int l=a*b/(-c*31%13)*d;
+ cout<<l;
+
+
+ float a,b;
+ cout<<"Enter the number ";
+ cin>>a>>b;
+ int c=(int)a%(int)b;
+ cout<<c;
+
+ yaha pa sab sa achi batt ya ha ka ham na modules ka use kia but ham is chz pa nazar rakhta han ka ham na modulas ka uyse kia ha 
+is batt pa koi shak nhi ha or ham na upper float tupe variable lia ha jo ka zara sal galat ha ya program error data but ham na foran is ma
+Explict type casting ka use kua ha jasa ham na a%b likha to uska sattt he ham na (int )vaiable likha dia ha hamesha modulas ka use int ka satt hota ha 
+
+ cout<<sizeof(double );
+
+
+
+ ya jo ma likha ha single line ma ya single line comment ha 
+/*
+ya multi line comment ha  
+*/
+
+                                            chapter no 3
+
+ int a=10;
+ cout<<"Testing output......"<<a<<"*";
+
+
+ float a,b;
+ cout<<"Enter the number ";
+ cin>>a>>b;
+ cout<<"sum of the floating point number is "<<a+b;
+
+
+ int height,with,area;
+ cout<<"enter the height ";
+ cin>>height;
+ cout<<"enter the with ";
+ cin>>with;
+ area=height*with;
+ cout<<area;
+
+ cout<<"*\n*\t*\n*\t*\t*\n*\t*\t*\t*";
+
+ cout<<"1\t2\t3\t4\t5\n6\t7\t8\t9\t10";
+
+ cout<<"Pakistan\tis\tmy\tcountry\nIslamabad\tis\tits\tcapital";
+
+cout<<"c\no\tm\np\tu\tt\ne\tr\ti\ts\na\tw\to\tr\tl\nd\to\tf\ts\nc\ti\te\nn\tc\ne";
+
+jab bi ham na setw ka use karna ha to ham na sab sa phala is ka khayal rakhna ha ka ham na  heder file dakhni ha ka use hoye ha ka nhi ham na sab sa phala iomanip ka use karna ha phr he ham na setw ka use karna ha 
+
+ cout<<"Masroor"<<setw(10)<<"Ali";
+
+
+ cout<<"Numbers "<<setw(10)<<"Squares "<<setw(10)<<"Cube"<<endl;
+ cout<<1<<setw(14)<<1*1<<setw(14)<<1*1*1<<endl;
+ cout<<2<<setw(14)<<2*2<<setw(14)<<2*2*2<<endl;
+ cout<<3<<setw(14)<<3*3<<setw(14)<<3*3*3<<endl;
+ cout<<4<<setw(14)<<4*4<<setw(14)<<4*4*4<<endl;
+ cout<<5<<setw(14)<<5*5<<setw(14)<<5*5*5<<endl;
+
+
+ Setprecision 
+setprecision ka kam hota ha ka ham log koi bi value float ma rakhta han to ham cha raha han ka ham na ik value ko 
+setprecision sa ham floating point value ma ham ik fix kar sakta han ka atna number show hon wo number bi add hho ga or . ka bad wala bi jasa ma na neacha program kia ha
+
+ float n=4.12345678;
+ cout<<setprecision(3)<<n;
+
+ cout<<setw(10)<<setfill('*')<<" ";
+
+ // cout<<"my name is masroor ali "<<setw(10)<<setfill('*')<<"m";
+ cout<<"my name is masroor ali "<<setw(10)<<setfill('*')<<"hi";
+
+
+ cout<<setw(20)<<setfill('*')<<"oop using c++";
+
+
+
+ string name,adress;
+ int age;
+ cout<<"Enter your age "<<endl;
+ cin>>age;
+ cout<<"Enter your name "<<endl;
+ cin>>name;
+ cout<<"Enter your adress "<<endl;
+ cin>>adress;
+ cout<<"Age is = "<<age<<endl;
+ cout<<"name is = "<<name<<endl;
+ cout<<"adress is = "<<adress;
+
+
+
+ int l,b,a;
+ cout<<"enter the lenght of the triangle ";
+ cin>>l;
+ cout<<"enter the bearth of the triangle ";
+ cin>>b;
+ a=l*b;
+ cout<<"area is "<<a;
+
+
+ float a,b,c,d;
+ cout<<"enter the four numbers ";
+ cin>>a>>b>>c>>d;
+ float s=a+b+c+d;
+ cout<<"sum of the numbers "<<s<<endl;
+ cout<<"product of the numbers "<<a*b*c*d<<endl;
+ cout<<"Average of the number "<<s/4<<endl;
+
+
+ int marks,obmarks;
+ cout<<"enter the total marks ";
+ cin>>marks;
+ cout<<"enter the obtained marks ";
+ cin>>obmarks;
+ float percantage=(float)obmarks*100/(float)marks;
+ cout<<percantage;
+
+
+ int principal,rate,year;
+ cout<<"enter the principal amount ";
+ cin>>principal;
+ cout<<"enter the interest rete ";
+ cin>>rate;
+ cout<<"enter the year ";
+ cin>>year;
+ int simple=principal*rate/100*year;
+ cout<<simple;
+
+
+ char n;
+ cout<<"enter the character ";
+ cin>>n;
+ int a=n;
+ cout<<a;
+
+
+ int n;
+ cout<<"enter the number ";
+ cin>>n;
+ char l=n;
+ cout<<l;
+
+ char n;
+ cout<<"Enter the number ";
+ cin>>n;
+ int a=n;
+ cout<<a;
+
+ int div,divis;
+ cout<<"enter the value of dividend and divisor ";
+ cin>>div>>divis;
+ int q=div/divis;
+ int r=div%divis;
+ cout<<"quetioent "<<q<<endl<<"reminder "<<r;
+
+
+
+
+yaha pa jab ham na queitiont nakalana ha to ham na sab sa phala divide karna ha 
+jab reminder nakalana ha to ham na modulas lana ha ya batt yad rakhni ha baki sab bhool jaya 
+
+
+
+
+ int a,b;
+ cout<<"enter the value of a ";
+ cin>>a;
+ cout<<"Enter the value of B ";
+ cin>>b;
+ int temp=a;
+ a=b;
+ b=temp;
+ cout<<"the value of a is "<<a<<endl<<" the value of b is "<<b;
+
+
+
+ int a,b;
+ cout<<"enter the value of a";
+ cin>>a;
+ cout<<"enter the value of b";
+ cin>>b;
+ a=a+b;
+ b=a-b;
+ a=a-b;
+ cout<<"the value of  a is "<<a<<endl<<"the value of b is "<<b;
+
+
+
+ int a,b,c;
+ cout<<"enter the three number ";
+ cin>>a>>b>>c;
+ a=a+b+c;
+ b=a-(b+c);
+ c=a-(b+c);
+ a=a-(b+c);
+
+
+ cout<<a<<endl;
+ cout<<b<<endl;
+ cout<<c<<endl;
+
+
+
+
+ int a,b;
+ cout<<"enter the number of a";
+ cin>>a;
+ cout<<"enter the secound value ";
+ cin>>b;
+ int temp=a;
+ a=b;
+ b=temp;
+ cout<<"te value of a is "<<a<<endl<<"the value of b is "<<b;
+
+
+ int a,b;
+ cout<<"enter the number ";
+ cin>>a>>b;
+ a=a+b;
+ b=a-b;
+ a=a-b;
+ cout<<"the value of a is "<<a<<endl<<"the value of b is "<<b;
+
+
+ int a,b,c;
+ cout<<"Enter the three value ";
+ cin>>a>>b>>c;
+ a=a+b+c;
+ b=a-(b+c);
+ c=a-(b+c);
+ a=a-(b+c);
+ cout<<"the value of a is "<<a<<endl<<" b is "<<b<<endl<<" and the c is "<<c;
+
+
+
+ int distance,speed;
+ cout<<"Enter the distance ";
+ cin>>distance;
+ cout<<"Enter the speed ";
+ cin>>speed;
+ float time=(float)distance/(float)speed;
+ cout<<"total time is "<<time<<" hours";
+
+
+ham na agr ya find karna ho ka ham na atni dor jana ha or atni speed ma jana ya to ya sab sa best way ha apko bata da ga katna mints ma ap pounch jaya ga 
+jasa 100 kilometer ha 20 ke speed ha to 100/20 ho ga means distance divide speed to jo ans aya ga jasa yaha 5 aya raha ha to 5 ganta laga ga pouchna ma 
+
+ double base,height;
+ cout<<"enter the base ";
+ cin>>base;
+ cout<<"Enter the height ";
+ cin>>height;
+ float area=0.5*base*height;
+ cout<<"Total area is "<<area;
+
+
+ int h,m,sec;
+ cout<<"enter the secound ";
+ cin>>sec;
+ h=sec/3600;
+ sec=sec%3600;
+ m=sec/60;
+ sec=sec%60;
+ cout<<"HH-MM-SS  "<<h<<"-"<<m<<"-"<<sec;
+
+
+
+ float calcius;
+ cout<<"Enter the temperature in calcius ";
+ cin>>calcius;
+ float f=9.0/5.0*calcius+32;
+ cout<<f;
+
+
+ float height;
+ cout<<"Enter the height in inches ";
+ cin>>height;
+ float c=2.54*height;
+ cout<<"Height in centimeters "<<c;
+
+
+ int radius;
+ cout<<"Enter the radius ";
+ cin>>radius;
+ int area=3.14*radius*radius;
+ int c=2*3.14*radius;
+ cout<<"Area of the circle is "<<area<<endl;
+ cout<<"Circumference of the circle "<<c<<endl;
+
+
+
+
+ int v1,vf,a,t;
+ cout<<"Enter the initial velocity ";
+ cin>>v1;
+ cout<<"Enter the acceleration ";
+ cin>>a;
+ cout<<"Enter the time ";
+ cin>>t;
+ vf=v1+a*t;
+ cout<<vf;
+
+
+ int n,a,b;
+ cout<<"Enter the three integer ";
+ cin>>n;
+ a=n/100;
+ n=n%100;
+ b=n/10;
+ n=n%10;
+ cout<<n<<b<<a;
+
+
+
+ int n,a,b,c,d;
+ cout<<"Enter the five numbers ";
+ cin>>n;
+ a=n/10000;
+ n=n%10000;
+ b=n/1000;
+ n=n%1000;
+ c=n/100;
+ n=n%100;
+ d=n/10;
+ n=n%10;
+ cout<<"Numbers in reverse order is "<<n<<d<<c<<b<<a;
+
+
+
+
+ int even,odd;
+ cout<<"Enter the number ";
+ cin>>even;
+ cout<<"Enter the odd number ";
+ cin>>odd;
+ int sum=((even*5)+(odd*3));
+ int difference=1000-sum;
+ cout<<difference;
+
+
+ int n=10;
+ cout<<n<<endl;
+ n*=2;
+ cout<<n<<endl;
+ n--;
+ cout<<n;
+
+
+ int hours;
+ cout<<"Enter the number of hours ";
+ cin>>hours;
+ int week=hours/168;
+ hours=hours%168;
+ int day=hours/24;
+ hours=hours%24;
+ cout<<"The total week is "<<week<<endl<<"The total days are "<<day<<endl<<"The total hours "<<hours;
+
+
+ double electricity,gas,petrol;
+ cout<<"Enter the current rate of electricity ";
+ cin>>electricity;
+ cout<<"Enter the current rate of gas ";
+ cin>>gas;
+ cout<<"Enter the current rate of petrol ";
+ cin>>petrol;
+ electricity=electricity+electricity*0.10;
+ gas=gas+gas*0.10;
+ petrol=petrol+petrol*0.10;
+ cout<<"Current rate of electricity is "<<electricity<<endl;
+ cout<<"Current rate of gas is "<<gas<<endl;
+ cout<<"Current rate of petrol "<<petrol<<endl;
+
+
+
+yaha sa start kar dana ha 
+
+
+ float radius;
+ cout<<"Enter the radius of the sphere ";
+ cin>>radius;
+ float area=4*3.14*radius*radius;
+ float circumfarence=4/3*3.14*radius*radius*radius;
+ cout<<"The area of the surface is "<<area<<endl;
+ cout<<"The circumfarance of the surface "<<circumfarence;
+
+
+
+ float a,b,c;
+ cout<<"Enter the value of a b and c ";
+ cin>>a>>b>>c;
+ float s=(a+b+c)/2;
+ float  area=sqrt(s*(s-a)*(s-b)*(s-c));
+ cout<<"The area of the triangle is "<<area;
+
+
+ int miles;
+ cout<<"Enter the miles ";
+ cin>>miles;
+ float kilometer=(float)miles*1.609;
+ cout<<"The kilometer is = "<<kilometer;
+
+
+
+ int year;
+ cout<<"Enter the age in years ";
+ cin>>year;
+ int month=year*12;
+ int days=year*365;
+ cout<<"The age in months is "<<month<<endl;
+ cout<<"The age in days is  "<<days;
+
+
+ int n;
+ cout<<"Enter the number ";
+ cin>>n;
+ cout<<"The square of the number is "<<n*n<<endl<<"The cube of the number is "<<n*n*n;
+
+ int page,numberpage,days,read,remaing;
+ cout<<"Enter the total number of page of the book ";
+ cin>>page;
+ cout<<"Enter the number of pages a person can read in one day ";
+ cin>>numberpage;
+ cout<<"Enter the number of days a person can read this book ";
+ cin>>days;
+ read=numberpage*days;
+ remaing=page-read;
+ cout<<"The total page a person can read "<<read<<endl;
+ cout<<"The remaning page are "<<remaing;
+
+
+
+ float petrol;
+ cout<<"Enter the petrol in liter ";
+ cin>>petrol;
+ float travel=petrol*5.3;
+ cout<<"Distance covered by the car is "<<travel<<" miles";
+
+
+ int students,fee;
+ cout<<"Enter the total number of studentss ";
+ cin>>students;
+ cout<<"Enter the fee per students ";
+ cin>>fee;
+ int total=students*fee;
+ cout<<"Total fee collected from the students is "<<total;
+
+
+
+ float temperatur;
+ cout<<"Enter the temperature in farahan height ";
+ cin>>temperatur;
+ float c=5/9*temperatur-32;
+ cout<<"The temperature in calcius is "<<c;
+
+
+ string n;
+ cout<<"Enter the three number ";
+ cin>>n;
+ cout<<n[0]<<endl;
+ cout<<n[1]<<endl;
+ cout<<n[2]<<endl;
+
+
+
+ string n;
+ cout<<"Enter the number ";
+ cin>>n;
+ cout<<n[0]<<endl;
+ cout<<n[1]<<endl;
+ cout<<n[2]<<endl;
+
+
+
+ int a,b,c,temp;
+ cout<<"Enter the value ";
+ cin>>a>>b>>c;
+ temp=a;
+ a=b;
+ b=c;
+ c=temp;
+ cout<<"The value of A is "<<a<<endl;
+ cout<<"The value of B is "<<b<<endl;
+ cout<<"The value of C is "<<c<<endl;
+
+ int n;
+ cout<<"Enter the number ";
+ cin>>n;
+ cout<<log2(n);
+
+
+ char n;
+ cout<<"Enter the character ";
+ cin>>n;
+ n++;
+ cout<<n<<endl;
+ n++;
+ cout<<n<<endl;
+
+
+ int n,a,b,c,d;
+ int sum=0; 
+ cout<<"Enter the number ";
+ cin>>n;
+ a=n/10000;
+ n=n%10000;
+ b=n/1000;
+ n=n%1000;
+ c=n/100;
+ n=n%100;
+ d=n/10;
+ n=n%10;
+  sum=n+a+b+c+d;
+  cout<<"Sum of the values is "<<sum;
+
+
+/*program input basic sallary and calculates 35% dearness allowance ,25% house rent and then dosplays the gross salary */
+ int salary;
+ cout<<"Enter the basic salary ";
+ cin>>salary;
+ int dearness=salary*0.35;
+ int rent=salary*0.25;
+ int detect=dearness+rent;
+ int gross_sallary=salary-detect;
+ cout<<"Total gross sallary is "<<gross_sallary;
+
+
+ int principal,rate,time;
+ cout<<"Enter the principal amount ";
+ cin>>principal;
+ cout<<"Enter the rate of intrest ";
+ cin>>rate;
+ cout<<"Enter the time ";
+ cin>>time;
+ int compound=principal*pow((1+rate/100),time)-principal;
+ cout<<"compund amount is "<<compound;
+
+
+
+ int n;
+ cout<<"Enter the number ";
+ cin>>n;
+ cout<<char(n)<<endl;
+
+
+
+                                    Chapter no 5 \\
+
+
+
+
+ int marks;
+ cout<<"Enter the marks ";
+ cin>>marks;
+ if(marks>=40)
+ cout<<"Conguralation! You have passed ";
+
+
+ int a,b;
+ cout<<"Enter the two numbers ";
+ cin>>a>>b;
+ if(a==b)
+ cout<<"both are equal numbers ";
+
+
+ int a,b;
+ cout<<"Enter the two numbers ";
+ cin>>a>>b;
+ if(b==a*a)
+ cout<<"2nd number is the square of first ";
+
+
+ int a,b,c,sum=0;
+ cout<<"Enter the marks of 3 subjects ";
+ cin>>a>>b>>c;
+  sum=a+b+c;
+ int avg=sum/3;
+ if(avg>80)
+ cout<<"You are above standard! and admission granted!";
+
+
+
+ int a,b,c;
+ cout<<"Enter the three numbers ";
+ cin>>a>>b>>c;
+ int max=a;
+ if(b>max)
+ max=b;
+ if(c>max)
+ max=c;
+ cout<<"Maximum number is "<<max;
+
+
+
+ int n;
+ cout<<"Enter the number ";
+ cin>>n;
+ if(n>0)
+ cout<<"Positive number ";
+ if(n<0)
+ cout<<"Negative number ";
+ if(n==0)
+ cout<<"The number is zero ";
+
+
+
+
+ int a,b,c,d,e;
+ cout<<"Enter the five numbers ";
+ cin>>a>>b>>c>>d>>e;
+ int max=a;
+ if(b>max)
+ max=b;
+ if(c>max)
+ max=c;
+ if(d>max)
+ max=d;
+ if(e>max)
+ max=e;
+ int min=a;
+ if(b<min)
+ min=b;
+ if(c<min)
+ min=c;
+ if(d<min)
+ min=d;
+ if(e<min)
+ min=e;
+ cout<<"Maximum number is "<<max<<endl;
+ cout<<"Minimum number is "<<min<<endl;
+
+
+
+ int n;
+ cout<<"Enter the number ";
+ cin>>n;
+ if(n%2==0)
+ cout<<"Number is Even ";
+ else 
+ cout<<"Odd number ";
+
+
+
+ int year;
+ cout<<"Enter the year ";
+ cin>>year;
+ if(year%4==0)
+ cout<<"Year is a leap year ";
+ else 
+ cout<<"Not a leap year ";
+
+
+ int salary,grade;
+ cout<<"Enter the salary ";
+ cin>>salary;
+ cout<<"Enter the grade ";
+ cin>>grade;
+ if(grade>15)
+ salary=salary+salary*0.50;
+ else
+ salary=salary+salary*0.25;
+ cout<<salary;
+
+
+
+ int a,b;
+ cout<<"Enter the two numbers ";
+ cin>>a>>b;
+ if(a%b==0)
+ cout<<"The first number is the multiple of secound ";
+ else
+ cout<<"The first number is not a multiple of secound ";
+
+jab ham na multiple find karna ho to ham na sab sa phala is chz ma dakhna ha ka ham na sab sa ohala ik number ka dusra ka satt 
+modulus la ga 
+
+ //jasa modulus 
+ int a,b;
+ cout<<"Enter the two numbers ";
+ cin>>a>>b;
+ if(a%b==0)
+ cout<<"The first number is the multiple of secound ";
+
+
+ int score;
+ cout<<"Enter the test score ";
+ cin>>score;
+ if(score>=90)
+ cout<<"Grade is A ";
+ else if(score>=80)
+ cout<<"Grade is B ";
+ else if(score>=70)
+ cout<<"Grade is C ";
+ else if(score>=60)
+ cout<<"Grade is D ";
+ else 
+ cout<<"Fail";
+
+
+ int unit,price;
+ cout<<"Enter the units ";
+ cin>>unit;
+ if(unit<=300)
+ price=unit*2+150;
+ else if(unit>300 && unit<=500)
+ price=unit*5+150;
+ else if(unit>500)
+ price=unit*7+150;
+ else if(price>2000)
+ price=price+price*0.05;
+ cout<<"Total price is "<<price;
+
+ int salary;
+ cout<<"Enter the salary ";
+ cin>>salary;
+ if(salary>=20000)
+ salary=salary-salary*0.07;
+ else if(salary>=10000)
+ salary=salary-1000;
+ else 
+ salary=salary;
+ cout<<"Total salary is "<<salary;
+
+
+ int call,bill,n=200;
+ cout<<"Enter the numbers of calls ";
+ cin>>call;
+ if(call<=100)
+ bill=n;
+ else if(call<=150)
+ bill=n+(call-100)*0.60;
+ else if(call<=200)
+ bill=n+(50*0.60)+(call-150)*0.50;
+ else if(call<=250)
+ bill=n+(50*0.60)+(50*0.50)+(call-200)*0.40;
+ cout<<"Total bill is "<<bill;
+
+                    Nested loop ka use kar ka ham na ya concepts clear kia han 
+ else
+ cout<<"C is the smallest number ";
+ else
+ if(b<c)
+ cout<<"b is the smallest number ";
+ else
+ cout<<"c is the smallest number ";
+
+
+
+ int a,b,c;
+ cout<<"Enter the three numbers ";
+ cin>>a>>b>>c;
+ if(a>b)
+ if(a>c)
+ cout<<"A is the largest number ";
+ else
+ cout<<"C is the largest number ";
+ else 
+ if(b>c)
+ cout<<"b is the largest number ";
+ else 
+ cout<<"c is the largest number ";
+
+
+
+ int a,b,c;
+ cout<<"Enter the three numbers ";
+ cin>>a>>b>>c;
+ if(a>b && a>c)
+ cout<<"A is the largest number ";
+ else if(b>a && b>c)
+ cout<<"B is the largest number ";
+ else if(c>a && c>b)
+ cout<<"C is the largest number ";
+ else 
+ cout<<"All are equals ";
+
+
+ char n;
+ cout<<"Enter the character ";
+ cin>>n;
+ if(n=='a' ||n=='e'||n=='i'||n=='o'||n=='u'||n=='A'||n=='E'||n=='I'||n=='O'||n=='U')
+ cout<<"Character is vowels ";
+ else 
+ cout<<"Not a vowels ";
+
+4,6,9,11=30 , 2=29/28 baki sab ka 31 din he han 
+
+
+ int n;
+ cout<<"Enter the month ";
+ cin>>n;
+ if(n==2)
+ cout<<"28 or 29 days ";
+ else if(n==4||n==6||n==9||n==11)
+ cout<<"30 days ";
+ else if(n==1||n==3||n==5||n==7||n==8||n==10||n==12)
+ cout<<"31 days";
+ else
+ cout<<"Invalid";
+
+
+ char n;
+ cout<<"Enter the character ";
+ cin>>n;
+ if(n>='A'&& n<='Z')
+ cout<<"character is capital ";
+ else if(n>='a'&& n<='z')
+ cout<<"character is small ";
+ else if(n>='0' && n<='9')
+ cout<<"digit number ";
+ else 
+ cout<<"special character ";
+
+
+
+
+
+ int n;
+ cout<<"Enter the number ";
+ cin>>n;
+ if(n%2!=1)
+ cout<<"number is even ";
+ else
+ cout<<"number is odd ";
+
+
+ int n;
+ cout<<"Enter the number ";
+ cin>>n;
+ switch(n){
+
+     case 1:
+     cout<<"Friday";
+     break;
+     case 2:
+     cout<<"Saturday ";
+     break;
+     case 3:
+     cout<<"Sunday ";
+     break;
+     case 4:
+     cout<<"Monday";
+     break;
+     case 5:
+     cout<<"Tuesday";
+     break;
+     case 6:
+     cout<<"wednesday";
+     break;
+     case 7:
+     cout<<"Thursday ";
+     break;
+     default:
+     cout<<"bsdk 7 din he hota han un ma he search kar khoti ka bacha ";
+
+ }
+
+
+ char n;
+ cout<<"Enter the Alphabates ";
+ cin>>n;
+ switch(n){
+     case 'a':
+     case 'A':
+     cout<<"Vowels";
+     break;
+     case 'e':
+     case 'E':
+     cout<<"Vowels";
+     break;
+     case 'i':
+     case 'I':
+     cout<<"Vowels";
+     break;
+     case 'o':
+     case 'O':
+     cout<<"Vowels";
+     break;
+     case 'u':
+     case 'U':
+     cout<<"Vowels";
+     break;
+ default:
+ cout<<"consunats ";
+
+
+
+Conditional operator
+
+ int n;
+ cout<<"Enter the number ";
+ cin>>n;
+ cout<<"Result is : "<<((n>=40)?"pass":"fail");
+
+ int n;
+ cout<<"Enter the number ";
+ cin>>n;
+ cout<<"Number is : "<<((n%2==0)?"Even":"Odd");
+
+
+
+ int n;
+ cout<<"Enter the number ";
+ cin>>n;
+ cout<<"Number is "<<((n%3==0)?"Divisible":"Not Divisible");
+
+
+
+Goto statement 
+
+ int n=1;
+ loop:
+ cout<<n<<endl;
+ n++;
+ if(n<=5)goto loop;
+ cout<<"end of program ";
+
+
+ int a=1;
+ loop:
+ cout<<a<<endl;
+ a++;
+ if(a<=4)goto loop;
+
+
+ char n;
+ cout<<"Enter the character ";
+ cin>>n;
+ if(n>='a'&&n<='z')
+ cout<<"Character is lower case ";
+ else 
+ cout<<"Character is not a lower case ";
+
+ char n;
+ cout<<"Enter the character ";
+ cin>>n;
+ if(n=='s'||n=='S')
+ cout<<"Senior sales man salary is 400";
+ else if(n=='j' || n=='J')
+ cout<<"Junior sales man salary is 275 ";
+ else 
+ cout<<"Invalid ";
+
+ int a,b,c;
+ cout<<"Enter the three numbers ";
+ cin>>a>>b>>c;
+ cout<<"Number is "<<((b%a==0 &&c%a==0)?"Common Divisior":"Not a common divisior");
+
+
+ char n;
+ int l,area,base,h;
+ cout<<"Enter the character you want to see the area of (square) or (triangle)";
+ cin>>n;
+ if(n=='s'||n=='S'){
+ cout<<"Enter the value of side ";
+ cin>>l;
+ area=l*l;
+ cout<<area;
+ }
+ else if(n=='T'||n=='t')
+ {
+ cout<<"Enter the value of side ";
+ cin>>base;
+ cout<<"Enter the height ";
+ cin>>h;
+ area=0.5*base*h;
+ cout<<area;
+ }
+ else
+ cout<<"Invalid";
+
+
+
+
+ int n;
+ cout<<"Enter the number ";
+ cin>>n;
+ if(n==1)
+ cout<<"Western Digital";
+ else if(n==2)
+ cout<<"3M Corporation ";
+ else if(n==3)
+ cout<<"Maxewell Corporation";
+ else if(n==4)
+ cout<<"Sony Corporation";
+ else if(n==5)
+ cout<<"Verbatim Corporation ";
+ else 
+ cout<<"Invalid ";
+
+
+ char n;
+ cout<<"Enter the characcter ";
+ cin>>n;
+ if(n=='A')
+ cout<<"Adventure Movies";
+
+convert Miltary time into standard time 
+
+ int h,m;
+ cout<<"Enter the time in hours ";
+ cin>>h;
+ cout<<"Enter the minutes ";
+ cin>>m;
+ if(h==0)
+ cout<<"standard time is 12"<<":"<<m<<"AM";
+ else if(h<12)
+ cout<<"Standard time is "<<h<<":"<<m<<"AM";
+ else if(h==12)
+ cout<<"Standard time is "<<h<<":"<<m<<"PM";
+ else 
+ cout<<"standard time is "<<h<<":"<<m<<"PM";
+
+
+
+
+ int h,m;
+ cout<<"Enter the time in hours and minute ";
+ cin>>h>>m;
+ if(h==0)
+ cout<<"Standard time is 12"<<":"<<m<<"AM";
+ else if(h<12)
+ cout<<"Standard time is "<<h<<":"<<m<<"AM";
+ else if(h==12)
+ cout<<"Standard time is "<<h<<":"<<m<<"PM";
+ else 
+ cout<<"Standard time is "<<h-12<<":"<<m<<"PM";
+
+
+
+
+ int a,b,c,x;
+ cout<<"Enter the value of A,B,C";
+ cin>>a>>b>>c;
+ x=b*b-4*a*c;
+ if(x<0)
+ cout<<"Invalid";
+ else{
+ int x1=(-b+sqrt(x))/(2*a);
+
+ int x2=(-b-sqrt(x))/(2*a);
+ cout<<"There are two result is "<<x1<<endl<<" and "<<x2;
+ }
+
+
+
+
+ int n;
+ cout<<"Enter the  integer ";
+ cin>>n;
+ if(n==0)
+ cout<<"Number is zero";
+ if(n>0){
+     if(n%2==0)
+     cout<<"positive even";
+     else {
+         if(n%2==0)
+         cout<<"Negative even";}
+ }
+ else {
+     if(n>0){
+     if(n%2==1)
+     cout<<"Positive odd";}
+     else {
+         if(n%2==1)
+         cout<<"Negative odd";
+     }
+ }
+
+
+
+
+ int n;
+ cout<<"Enter the number ";
+ cin>>n;
+ if(n==0)
+ cout<<"Number is zero";
+ else if(n>0){
+     if(n%2==0)
+     cout<<"Positive even ";
+     else 
+     cout<<"Positive odd";
+ }
+ else 
+ {
+     if(n%2==0)
+
+ cout<<"negative even";
+ else 
+ cout<<"negative odd";
+
+ }
+
+
+ int n;
+ cout<<"Enter the number ";
+ cin>>n;
+ cout<<"The value of the number is "<<n<<endl;
+ cout<<"The Adress of the number is "<<&n;
+
+memory ma value ko store karwana ka lia hama pointer ka use karna parta ha pointer ik powerfful veriabole ha 
+ isko ham inilization karna ka lia hama * ka use karna parta ha 
+ int a;
+ int *p=&a;
+ cout<<"Enter the value ";
+ cin>>*p;
+ cout<<*p;
+
+
+
+ //pointer ma ham na 2 variables lia han or unka sum karwaya ha 
+ int a,b;
+ int *p1=&a;
+ int *p2=&b;
+ cout<<"Enter the value ";
+ cin>>*p1>>*p2;
+ cout<<"sum of the value is "<<*p1+*p2;
+
+
+ int a;
+ int *p=&a;
+ cout<<"Enter the value ";
+ cin>>*p;
+ cout<<"the square of the pointer is "<<*p**p<<endl;
+ cout<<"The adress of the pointer is "<<p<<endl;
+ cout<<"The adress of the pointer is "<<&a;
+
+
+
+ int a,b;
+ int *p1=&a;
+ int *p2=&b;
+ cout<<"Enter the value ";
+ cin>>*p1>>*p2;
+ cout<<"Sum of the values is "<<*p1+*p2;
+
+
+ chapter no 7 we start practise of an array 
+
+ int arr[5];
+ cout<<"Enter the value ";
+ cin>>arr[0];
+ cout<<"Enter the value ";
+ cin>>arr[1];
+ cout<<"Enter the value ";
+ cin>>arr[2];
+ cout<<"Enter the value ";
+ cin>>arr[3];
+ cout<<"Enter the value ";
+ cin>>arr[4];
+ cout<<"The values is "<<arr[0]<<" : "<<arr[1]<<" : "<<arr[2]<<" : "<<arr[3]<<" : "<<arr[4];
+
+
+
+ int arr[5];
+ for(int i=0; i<5; i++){
+     cout<<"Enter the values ";
+     cin>>arr[i];
+ }
+ cout<<endl;
+ for(int i=0; i<5; i++){
+     cout<<"The values you entered "<<arr[i]<<endl;
+ }
+
+
+ int arr[6];
+ for(int i=0; i<6; i++){
+     cout<<"Enter the value ";
+     cin>>arr[i];
+ }
+ cout<<endl<<endl<<"You Entered the value is "<<endl;
+ for(int i=0; i<6; i++){
+     cout<<arr[i]<<endl;
+ }
+
+
+ int arr[5],sum=0;
+ for(int i=0; i<5; i++){
+     cout<<"Enter the value ";
+     cin>>arr[i];
+     sum+=arr[i];
+ }
+ int avg=sum/5;
+ cout<<endl;
+ cout<<"Sum of the value is "<<sum<<endl;
+ cout<<"Average of the value is "<<avg;
+
+
+ int arr[5];
+ for(int i=0; i<5; i++){
+     cout<<"Enter the number ";
+     cin>>arr[i];
+ }
+ cout<<endl;
+ //Sequential 
+ int n,loc=-1;
+ cout<<"Enter the number ";
+ cin>>n;
+ for(int i=0; i<5; i++){
+     if(n==arr[i]){
+         loc=i;
+         break;
+     }
+ }
+ if(loc!=-1)
+ cout<<"The number is at index "<<loc;
+ else 
+ cout<<"The number is not at index ";
+
+
+
+
+
+again 
+
+ int arr[5],n,loc=-1;
+ for(int i=0; i<5; i++){
+     cout<<"Enter the valus in array ";
+     cin>>arr[i];
+ }
+ cout<<endl<<"The values are "<<endl;
+ for(int i=0; i<5; i++){
+     cout<<arr[i]<<" ";
+ }
+ cout<<endl<<endl;
+ cout<<"Enter the number ";
+ cin>>n;
+ for(int i=0; i<5; i++){
+     if(n==arr[i])
+ {
+     loc=i;
+     break;
+ }
+ }
+ if(loc!=-1)
+ cout<<"The value is at index "<<loc;
+ else 
+ cout<<"Invalid ";
+
+
+
+
+
+ //Binary search 
+ int arr[5]={10,20,30,40,50};
+ int start=0,end=4,mid,loc=-1,n;
+ cout<<"Enter the number ";
+ cin>>n;
+ while(start<=end){
+     mid=(start+end)/2;
+     if(arr[mid]==n){
+         loc=mid;
+         break;
+     }
+     if(n<arr[mid])
+     end=mid-1;
+     else 
+     start=mid+1;
+ }
+ if(loc!=-1)
+ cout<<"The value is at index "<<loc;
+ else 
+ cout<<"invalid";
+
+again 
+
+ int arr[5]={10,20,30,40,50};
+ int n,start=0,end=4,mid,loc=-1;
+ cout<<"Enter the number ";
+ cin>>n;
+ while(start<=end){
+     mid=(start+end)/2;
+     if(arr[mid]==n){
+ loc=mid;
+ break;
+     }
+     if(n<arr[mid])
+     end=mid-1;
+     else
+     start=mid+1;
+ }
+ if(loc!=-1)
+ cout<<"The value is at index "<<loc;
+ else 
+ cout<<"Invalid";
+
+
+ int arr[5];
+ for(int i=0; i<5; i++){
+     cout<<"Enter the number ";
+     cin>>arr[i];
+ }
+ cout<<endl;
+ cout<<"You enter this numbers ";
+ cout<<endl;
+ for(int i=0; i<5; i++){
+     cout<<arr[i]<<"  ";
+ }
+ cout<<endl;
+ for(int i=0; i<5; i++)
+ for(int j=0; j<4-i; j++)
+     if(arr[j]>arr[j+1]){
+         int temp=arr[j];
+         arr[j]=arr[j+1];
+         arr[j+1]=temp;
+     }
+
+ cout<<endl<<endl;
+ for(int i=0; i<5; i++){
+     cout<<arr[i]<<" ";
+ }
+
+
+
+
+ int arr[5];
+ for(int i=0; i<5; i++){
+     cout<<"Enter the number ";
+     cin>>arr[i];
+ }
+ cout<<endl;
+ cout<<"you enter the values ";
+ cout<<endl;
+ for(int i=0; i<5; i++){
+     cout<<arr[i]<<" ";
+ } 
+ cout<<endl;
+ for(int i=0; i<5; i++)
+ for(int j=0; j<4-i; j++)
+ if(arr[j]>arr[j+1]){
+     int temp=arr[j];
+     arr[j]=arr[j+1];
+     arr[j+1]=temp;
+ }
+ cout<<endl;
+ cout<<"After sorting values ";
+ cout<<endl;
+ for(int i=0; i<5; i++){
+     cout<<arr[i]<<" ";
+ }
+
+
+ int arr[5];
+ for(int i=0; i<5; i++){
+     cout<<"Enter the number ";
+     cin>>arr[i];
+ }
+ cout<<endl;
+ cout<<"You enter this values ";
+ cout<<endl;
+ for(int i=0; i<5; i++){
+     cout<<arr[i]<<"  ";
+ }
+ cout<<endl;
+ sort(arr,arr+5);
+ cout<<"After sorting values are "<<endl;
+ for(int i=0; i<5; i++){
+     cout<<arr[i]<<" ";
+ }
+
+
+ int arr[5],product=1;
+ for(int i=0; i<5; i++){
+     cout<<"Enter the number";
+     cin>>arr[i];
+ product*=arr[i];
+ }
+ cout<<"total mulltiplication is "<<product;
+
+ int arr[5];
+ for(int i=0; i<5; i++){
+     cout<<"Enter the number ";
+     cin>>arr[i];
+ }
+ cout<<endl;
+ for(int i=0; i<5; i++){
+     if(arr[i]%2==0)
+     cout<<"Number is Even "<<arr[i]<<"  ";
+     else 
+     cout<<"Number is odd "<<arr[i]<<"   ";
+ }
+
+
+ int arr[5];
+ for(int i=0; i<5; i++){
+     cout<<"Enter the number ";
+     cin>>arr[i];
+ }
+ cout<<endl;
+ for(int i=0; i<5; i++)
+ {
+     cout<<arr[i]<<" ";
+ }
+ cout<<endl;
+ int i
+
+
+
+ int arr[5], max=INT_MIN,min=INT_MAX;
+ for(int i=0; i<5; i++){
+     cout<<"Enter the number ";
+     cin>>arr[i];
+ }cout<<endl;
+ for(int i=0; i<5; i++){
+     if(arr[i]>max)
+     max=arr[i];
+     if(arr[i]<min)
+     min=arr[i];
+ }
+ cout<<"Maximum value is "<<max;
+ cout<<endl<<"Minimum value is "<<min;
+
+
+
+ int arr[5];
+ int max=INT_MIN,min=INT_MAX;
+ for(int i=0; i<5; i++){
+     cout<<"Enter the number ";
+     cin>>arr[i];
+ }
+ for(int i=0; i<5; i++){
+     if(arr[i]>max)
+     max=arr[i];
+     if(arr[i]<min)
+     min=arr[i];
+ }
+ cout<<"Maximum is "<<max<<endl<<"Minimum is "<<min;
+
+
+ int arr[5];
+ for(int i=0; i<5; i++){
+     cout<<"Enter the number ";
+     cin>>arr[i];
+ }
+ cout<<end;
+ for(int i=0; i<5; i++){
+     cout<<arr[i]<<" ";
+ }
+ cout<<endl;
+ int deletev=arr[2];
+ int index[5];
+ int newv=0;
+ for(int i=0; i<5; i++){
+     if(arr[i]!=deletev){
+     index[newv++]=arr[i];
+ }}
+ cout<<endl;
+ for(int i=0; i<newv; i++){
+     cout<<index[i]<<" ";
+ }
+
+ int arr[5];
+ for(int i=0; i<5; i++){
+     cout<<"Enter the value ";
+     cin>>arr[i];
+ }
+ cout<<endl;
+ for(int i=0; i<5; i++){
+     cout<<arr[i]<<" ";
+ }
+ cout<<endl;
+ int deletev=arr[2];
+ int index[5];
+ int newv=0;
+ for(int i=0; i<5; i++)
+ {
+     if(deletev!=arr[i])
+     index[newv++]=arr[i];
+ }
+ cout<<endl<<"Updated code is "<<endl;
+ for(int i=0; i<newv;i++){
+     cout<<index[i]<<" ";
+ }
+ cout<<endl;
+
+
+
+ int arr[5];
+ for(int i=0; i<5; i++){
+     cout<<"Enter the value ";
+     cin>>arr[i];
+ }
+ cout<<endl;
+ for(int i=0; i<5; i++){
+     cout<<arr[i]<<"  ";
+ }
+ cout<<endl<<endl;
+ int deletev=arr[3];
+ int index[5];
+ int newv=0;
+ for(int i=0; i<5; i++){
+     if(deletev!=arr[i])
+     index[newv++]=arr[i];
+ }
+ cout<<"Updated values is ";
+ cout<<endl;
+ for(int i=0; i<newv; i++){
+     cout<<index[i]<<" ";
+ }
+
+
+ //          Structures 
+ struct Masroor{
+     int mas;
+     float ali;
+ };
+ int main(){
+   Masroor m;
+
+ cout<<"Enter the number ";
+ cin>>m.ali
+
+
+
+
+ struct Masroor{
+     int marks;
+ };
+ int main(){
+     Masroor m;
+     cout<<"Enter the marks ";
+     cin>>m.marks;
+     cout<<"You enter the marks is "<<m.marks;
+
+
+          Function ka use 
+
+ void fun(int n){
+ cout<<"The value of n is "<<n;
+ }
+ int main(){
+     int n;
+     cout<<"Enter the number ";
+     cin>>n;
+     fun(n);
+
+
+
+
+ int fun(int a,int b){
+     return a+b;
+ }
+ int main(){
+     int a,b;
+     cout<<"Enter the numbers ";
+     cin>>a>>b;
+    
+
+ }
+
+
+
+ int fun(int a,int b)//foraml parameter
+ {
+ return a+b;
+ }
+ int main(){
+ int a,b;//actual paramater 
+ cout<<"Enter the vlaue of A";
+ cin>>a;
+ cout<<"Enter the value of b";
+ cin>>b;
+ cout<<"Sum of the value is "<<fun(a,b);
+
+
+ int fun(int &n){
+ n=20;        
+ return n;
+
+ }
+ int main(){
+
+
+ int n=10;// yaha pa ya batt ha ka ham na dakha ha ka n=10 ha to agr ham na pass by value rakha ha to 
+ // n ke ander ke value ma change nhi aya ga bss iska function ka value ma chaneg aya ga bss 
+ cout<<"pass by value "<<fun(n)<<endl;
+ cout<<n;
+ 
+
+ //pass by value 
+ int fun(int n){
+ n=20;
+ return n;
+ } 
+ int main(){
+
+ int n=10;
+ cout<<"pass by value is "<<fun(n)<<endl;
+ cout<<"The value of n is "<<n;
+
+
+ int fun(int &n){
+     n=20;
+     return n;
+ }
+ int main(){
+     int n=10;
+     cout<<"Pass by referrance is "<<fun(n)<<endl;
+     cout<<"the origional value of n is "<<n;
+
+
+ int fac(int n){
+ if(n<1)return 1;
+ return n*fac(n-1);
+ }int main(){
+     int n;
+     cout<<"Enter the number ";
+     cin>>n;
+     cout<<"Fictorial of the number is "<<fac(n);
+
+
+ int fibbonic(int n){
+     if(n==0)return 0;
+     if(n==1)return 1;
+     return fibbonic(n-1)+fibbonic(n-2);
+ }
+ int main(){
+     int n;
+     cout<<"Enter the number ";
+     cin>>n;
+     cout<<"Number is fibbonic "<<fibbonic(n);
+
+
+
+ bool prime(int n){
+     if(n<2)return false;
+     for(int i=2; i<=sqrt(n); i++){
+     if(n%i==0)return false;}
+     return true;
+ }
+ int main(){
+     int n;
+     cout<<"Enter the number ";
+     cin>>n;
+     if(prime(n))
+     cout<<"Number is prime ";
+     else 
+     cout<<"Not a prime number ";
+
+
+
+Loops 
+ int n=1;
+ while(n<=10){
+     cout<<n<<endl;
+     n++;
+ }
+
+
+ int n=1,sum=0;
+ while(n<=5){
+     cout<<n<<endl;
+     sum+=n;
+     n++;
+ }
+ cout<<"sum of the number is "<<sum;
+
+
+ int n=1;
+ while(n<=5){
+     cout<<n<<"  "<<n*n<<endl;
+     n++;
+ }
+
+
+ int n;
+ cout<<"Enter the number ";
+ cin>>n;
+ int i=1;
+ while(i<=10){
+     cout<<n<<"*"<<i<<" = "<<n*i<<endl;
+     i++;
+ }
+
+ int n,digit,sum=0;
+ cout<<"Enter the number ";
+ cin>>n;
+ while(n!=0){
+     digit=n%10;
+     sum+=digit;
+     n=n/10;
+ }
+ cout<<"Sum of the number is "<<sum;
+
+
+
+
+ int n,product=1;
+ cout<<"Enter the number ";
+ cin>>n;
+ int i=1;
+ while(i<=n){
+     product*=i;
+     i++;
+ }
+ cout<<"factorial of the number is "<<product;
+
+
+
+ int n,product=1;
+ cout<<"Enter the number ";
+ cin>>n;
+ int i=1;
+ while(i<=n){
+     product*=i;
+     i++;
+ }
+ cout<<"Factorial of the number is "<<product;
+
+
+
+
+ float a,b,sum=1;
+ a=1.0;
+ b=2.0;
+ while(b<=100){
+     sum+=1.0/b;
+     b=b+2;
+ }
+ cout<<sum;
+
+
+
+1+1/2+...1/100
+ float a,b;
+ a=1.0;
+ b=2.0;
+ while(b<=100){
+     a=a+1.0/b;
+     b=b+2;
+ }
+ // cout<<a;
+
+ float a,b;
+ a=1.0;
+ b=2.0;
+ while(b<=100){
+     a=a+1.0/b;
+     b=b+2;
+
+ }
+ cout<<a;
+
+ int n,evensum=0,oddsum=0;
+ cout<<"Enter the number ";
+ cin>>n;//5
+ while(n>=0){
+ if(n%2==0)
+ evensum+=n;
+ else 
+ oddsum+=n;
+     n--;
+ }
+ cout<<"The even sum is "<<evensum<<endl;
+ cout<<"The odd sum is "<<oddsum<<endl;
+
+
+
+ int n,digit,sum=0;
+ cout<<"Enter the number ";
+ cin>>n;
+ int l=n;
+ while(n!=0){
+     digit=n%10;
+     sum+=pow(digit,3);
+     n=n/10;
+ }
+ if(sum==l)
+ cout<<"Number is an armstrong ";
+ else 
+ cout<<"not an armstrong ";
+
+
+ int n,sum=0,count=0;
+ cout<<"Enter the number ";
+ cin>>n;
+ if(n<0);
+ else if(n>=0){
+     sum+=n;
+ count++;
+ cout<<"Enter the number ";
+ cin>>n;
+
+ }
+ int avg=sum/count;
+
+
+ int cw=1;
+ int cc=0; 
+ char ch;
+ cout<<"Enter the sentence ";
+ while(true){
+     ch=cin.get();
+     if(ch=='\n')
+     break;
+     else if(ch==' ')
+     cw++;
+     else
+     cc++;
+ }
+ cout<<"\nTotal counted words are "<<cw<<endl;
+ cout<<"Total character is "<<cc;
+
+
+ int cw=1;
+ int cc=0;
+ char ch;
+ cout<<"Enter the sentence ";
+ while(true){
+     ch=cin.get();
+     if(ch=='\n')
+     break;
+     else if(ch==' ')
+     cw++;
+     else 
+     cc++;
+ }
+ cout<<"\nTotal word "<<cw;
+ cout<<endl<<"Total character is "<<cc;
+
+
+
+ int a,b,next;
+ a=1;
+ b=1;
+ cout<<a<<" "<<b<<" ";
+ next=a+b;
+ int c=2;
+ while(c<=10){
+     cout<<next<<" ";
+     a=b;
+     b=next;
+     next=a+b;
+
+ c++;
+ }
+
+
+
+
+ int a,b,c,next;
+ a=1,b=1,next=a+b;
+ cout<<a<<" "<<b<<" ";
+ c=2;
+ while(c<=10){
+     cout<<next<<"  ";
+     a=b;
+     b=next;
+     next=a+b;
+     c++;
+ }
+
+
+
+ int n=10;
+ do{
+     cout<<n<<endl;
+     n--;
+ }while(n>=1);
+
+
+ int a,b,r;
+ cout<<"Enter the number ";
+ cin>>a>>b;
+ do{
+      r=pow(a,b);
+ }while(true);
+ cout<<r;
+
+
+
+ int a,b,sum=0;
+ char opp;
+ do{
+     cout<<"Enter the number ";
+     cin>>a>>b;
+    
+     sum=a+b;
+     cout<<sum;
+     cout<<"are you again check the answer ";
+     cin>>opp;
+ }while(opp!='n');
+
+
+
+
+ int n,digit,sum=0;
+ cout<<"Enter the number ";
+ cin>>n;
+ int m=n;
+ while(n!=0){
+     digit=n%10;
+     sum=sum*10+digit;
+     n=n/10;
+ }
+ if(sum=m)
+ cout<<"Number is palindrome ";
+ else 
+ cout<<"not a palidrome ";
+
+
+/         For Loop 
+
+ for(int i=0; i<5; i++){
+     cout<<"Hello world "<<endl;
+ }
+
+
+ int product=1;
+ for(int i=0; i<10; i++)
+ {
+     if(i%2==1){
+         product*=i;
+     }
+
+ }
+ cout<<"Total product "<<product;
+
+
+
+ for(int i=0; i<5; i++){
+ for(int i=0; i<5; i++){
+     cout<<"*"<<" ";
+ }cout<<endl;
+ }
+
+
+ for(int i=0; i<5; i++){
+     for(int k=0; k<5-i; k++)
+     cout<<" ";
+     for(int j=0; j<i; j++){
+         cout<<"* ";
+     }
+     cout<<endl;
+ }
+
+
+
+ for(int i=0; i<5; i++){
+     for(int j=0; j<5; j++){
+         cout<<"*";
+     }
+     cout<<endl;
+ }
+
+
+ for(int i=1; i<=5; i++){
+ for(int j=1; j<=i; j++){
+     cout<<"*";
+ }
+ cout<<endl;
+ }
+
+
+ for(int i=1; i<=5; i++){
+     for(int j=1; j<=5-i; j++)
+         cout<<" ";
+         for(int k=1; k<=i; k++){
+             cout<<"* ";
+         }
+         cout<<endl;
+
+ }
+
+ for(int i=4; i>=1; i--){
+     for(int j=1; j<=5-i; j++)
+         cout<<" ";
+         for(int k=1; k<=i; k++){
+             cout<<"* ";
+         }
+         cout<<endl;
+     }
+
+
+
+
+
+ for(int i=1; i<=5; i++){
+     for(int j=1; j<=5-i; j++)
+     cout<<" ";
+     for(int k=1; k<=i; k++){
+         cout<<"* ";
+     }
+     cout<<endl;
+ }
+
+ for(int i=4; i>=1; i--){
+     for(int j=1; j<=5-i; j++)
+     cout<<" ";
+     for(int k=1; k<=i; k++){
+         cout<<"* ";
+     }
+     cout<<endl;
+ }
+
+
+ for(int i=5; i>=1; i--){
+     // for(int j=1; j<=5-i; j++)
+     // cout<<" ";
+     for(int k=1; k<=i; k++){
+         cout<<"*";
+     }
+     cout<<endl;
+ }
+
+/*
+*
+* *
+* * *
+* * * *
+* * * * *
+*/
+ for(int i=1; i<=5; i++){
+     for(int j=1; j<=i; j++){
+         cout<<"*";
+     }cout<<endl;
+ }
+
+/*
+* * * * * 
+* * * * 
+* * * 
+* * 
+*
+
+*/
+
+ for(int i=5; i>=1; i--){
+     for(int j=1; j<=i; j++){
+         cout<<"*";
+     }cout<<endl;
+ // }
+
+ for(int i=1; i<=5; i++){
+     for(int j=1; j<=5-i; j++)
+     cout<<" ";
+     for(int k=1; k<=i; k++){
+         cout<<"*";
+     }
+     cout<<endl;
+ }
+
+
+ for(int i=5; i>=1; i--){
+     for(int j=1; j<=5-i; j++)
+     cout<<" ";
+     for(int k=1; k<=i; k++){
+         cout<<"*";
+     }
+     cout<<endl;
+ }
+
+ int n=4;
+ for(int i=4; i>=1; i--){
+     for(int j=1; j<=i; j++){
+         cout<<n<<" ";
+     }cout<<endl;
+ n--;
+ 
+ int n;
+ cout<<"Enter the number ";
+ cin>>n;
+ switch(n%2){
+     case 0:
+     cout<<"Even number ";
+ break;
+ case 1:
+ cout<<"Odd number ";
+ break;
+
+ }
+
+ int a=1;
+ int b=2;
+ for(int i=1; i<=5; i++){
+     for(int j=1; j<=i; j++){
+         cout<<a<<" ";
+         a=a+2;
+     }
+     cout<<endl;
+ }
+
+
+ int n,fac=1;
+ cout<<"Enter the number ";
+ cin>>n;
+ for(int i=1; i<=n; i++){
+     fac*=i;
+ }
+ cout<<fac;
+
+int arr[3][3];
+int i,j;
+cout<<"Enter the matrix :";
+for( i=0; i<3; i++)
+for( j=0; j<3; j++)
+cin>>arr[i][j];
+cout<<"the value in i and j is "<<arr[i][j];
+ return 0;
+ }
